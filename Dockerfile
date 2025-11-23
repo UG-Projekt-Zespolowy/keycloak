@@ -1,5 +1,4 @@
 FROM quay.io/keycloak/keycloak:26.4
 
-# COPY config.json /opt/keycloak/data/import/
-# CMD ["start-dev", "--import-realm"]
-CMD ["start-dev"]
+COPY config.json /opt/keycloak/data/import/
+CMD ["start-dev", "--import-realm"]
