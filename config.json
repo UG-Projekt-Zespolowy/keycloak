@@ -5,7 +5,7 @@
   "defaultSignatureAlgorithm" : "RS256",
   "revokeRefreshToken" : false,
   "refreshTokenMaxReuse" : 0,
-  "accessTokenLifespan" : 300,
+  "accessTokenLifespan" : 1800,
   "accessTokenLifespanForImplicitFlow" : 900,
   "ssoSessionIdleTimeout" : 1800,
   "ssoSessionMaxLifespan" : 36000,
@@ -28,13 +28,13 @@
   "enabled" : true,
   "sslRequired" : "external",
   "registrationAllowed" : true,
-  "registrationEmailAsUsername" : false,
+  "registrationEmailAsUsername" : true,
   "rememberMe" : false,
   "verifyEmail" : false,
   "loginWithEmailAllowed" : true,
   "duplicateEmailsAllowed" : false,
   "resetPasswordAllowed" : true,
-  "editUsernameAllowed" : false,
+  "editUsernameAllowed" : true,
   "bruteForceProtected" : false,
   "permanentLockout" : false,
   "maxTemporaryLockouts" : 0,
@@ -379,6 +379,204 @@
   "webAuthnPolicyPasswordlessAcceptableAaguids" : [ ],
   "webAuthnPolicyPasswordlessExtraOrigins" : [ ],
   "users" : [ {
+    "id" : "1fb17c77-0f19-4851-88fa-0cc9ec074ea3",
+    "username" : "agatakuc@yahooo.com",
+    "firstName" : "Agata",
+    "lastName" : "Kuc",
+    "email" : "agatakuc@yahooo.com",
+    "emailVerified" : false,
+    "enabled" : true,
+    "createdTimestamp" : 1767984897224,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "6a4b93e8-6c2f-485a-ac5d-bc0f9131598f",
+      "type" : "password",
+      "createdDate" : 1767984897249,
+      "secretData" : "{\"value\":\"ZR93blg+QYLyIrvnVBSl89NlOgM3mkKXv/5/WLlRFgU=\",\"salt\":\"F18bpdQYMTmo+cuqaIOFIg==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-project-realm" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "95fbab48-7602-4b2f-b5f3-dfcafe2a0e18",
+    "username" : "borysszyc@gmail.com",
+    "firstName" : "Borys",
+    "lastName" : "Szyc",
+    "email" : "borysszyc@gmail.com",
+    "emailVerified" : false,
+    "enabled" : true,
+    "createdTimestamp" : 1767984727208,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "69003477-4f0b-47a6-afb3-ed925ad3b832",
+      "type" : "password",
+      "createdDate" : 1767984727230,
+      "secretData" : "{\"value\":\"FQMa5fIuT2dOGZ+4P9czMAwyukpJzCpp4StdzSkQ/NM=\",\"salt\":\"ySdB6QLjHZWD0lH6VXtEzw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-project-realm" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "f49288a7-1011-4ee0-b21b-6b988756a6db",
+    "username" : "damianszulc@yahooo.com",
+    "firstName" : "Damian",
+    "lastName" : "Szulc",
+    "email" : "damianszulc@yahooo.com",
+    "emailVerified" : false,
+    "enabled" : true,
+    "createdTimestamp" : 1767984419022,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "b3f79fc0-64fd-4ab3-8312-133d8c3b5a1f",
+      "type" : "password",
+      "createdDate" : 1767984419080,
+      "secretData" : "{\"value\":\"eYdiqjhoIlipJSCY9WVoa4JvD9GRLHik/0Robfneclw=\",\"salt\":\"YbBk1SCo28QHnBd26WQm6A==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-project-realm" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "354cb1e3-44e8-4db1-9cb3-db1a373cb915",
+    "username" : "filipmaciejewski@wp.pl",
+    "firstName" : "Filip",
+    "lastName" : "Maciejewski",
+    "email" : "filipmaciejewski@wp.pl",
+    "emailVerified" : false,
+    "enabled" : true,
+    "createdTimestamp" : 1767984846774,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "fec19caf-6998-4d0c-b853-2b33a86bdb38",
+      "type" : "password",
+      "createdDate" : 1767984846800,
+      "secretData" : "{\"value\":\"ILZRiHJGmPWnRFMZgiIIZE8tKv0I3//LDZ6ekWuZa04=\",\"salt\":\"9CxAGKoOfzPnEaaRfaNWHw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-project-realm" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "7f627bbe-b935-4b34-9ae8-9d038e71fa07",
+    "username" : "magdawisniewska@gmail.com",
+    "firstName" : "Magdalena",
+    "lastName" : "Wisniewska",
+    "email" : "magdawisniewska@gmail.com",
+    "emailVerified" : false,
+    "enabled" : true,
+    "createdTimestamp" : 1767984394404,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "6139dc76-35e0-4829-b6e4-7363b17106bc",
+      "type" : "password",
+      "createdDate" : 1767984394453,
+      "secretData" : "{\"value\":\"bZND/sfCePuqqwvqdcZyNlm1f6iyUZaSrPUULPRjRdg=\",\"salt\":\"UZ9IItdA7FmC9melxgGDSw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-project-realm" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "1d61b220-3988-4bbd-baa0-ee040d937705",
+    "username" : "paulinakukulka@wp.pl",
+    "firstName" : "Paulina",
+    "lastName" : "Kukulka",
+    "email" : "paulinakukulka@wp.pl",
+    "emailVerified" : false,
+    "enabled" : true,
+    "createdTimestamp" : 1767984486548,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "45041866-98a3-4b90-a026-ae30d3bf10a4",
+      "type" : "password",
+      "createdDate" : 1767984486577,
+      "secretData" : "{\"value\":\"TBn3/ZzvE0N4T1J6xqEExGMi/ONYSYNvWKXYse+nnuY=\",\"salt\":\"TSYZLx+PXcaPGKrpq/pU1Q==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-project-realm" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "53422375-d568-4d4d-81a9-6121b32b04b5",
+    "username" : "pawelrasz@gmail.com",
+    "firstName" : "Pawel",
+    "lastName" : "Rasz",
+    "email" : "pawelrasz@gmail.com",
+    "emailVerified" : false,
+    "enabled" : true,
+    "createdTimestamp" : 1767984824039,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "9e64826b-d96b-4a3a-a2b6-b3705699ed24",
+      "type" : "password",
+      "createdDate" : 1767984824118,
+      "secretData" : "{\"value\":\"HtsIs4XVLapJYfhpJms3ZE0CbPdk5ESCQmOurqY8N0U=\",\"salt\":\"bNHipzaY4REWeP+6th/itQ==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-project-realm" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "8b1be6af-0ae8-4b65-99a3-f11752093357",
+    "username" : "pawelrozanski@wp.pl",
+    "firstName" : "Pawel",
+    "lastName" : "Rozanski",
+    "email" : "pawelrozanski@wp.pl",
+    "emailVerified" : false,
+    "enabled" : true,
+    "createdTimestamp" : 1767984362696,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "083e6c1a-1854-4e06-9948-cac3dbea3d7d",
+      "type" : "password",
+      "createdDate" : 1767984362742,
+      "secretData" : "{\"value\":\"IB6+buVdjzn91oYEI6dGXR4LymggqSOv5LqsQlYjwek=\",\"salt\":\"aVLiuAWhe3RhE1vEV+6sUA==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-project-realm" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "fecd71dd-b3fb-49d2-8407-d7d31d12f43b",
+    "username" : "robertdabrowski@wp.pl",
+    "firstName" : "Robert",
+    "lastName" : "Dabrowski",
+    "email" : "robertdabrowski@wp.pl",
+    "emailVerified" : false,
+    "enabled" : true,
+    "createdTimestamp" : 1767984466223,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "2a75922b-9b66-456f-af0a-af7d3ba81636",
+      "type" : "password",
+      "createdDate" : 1767984466248,
+      "secretData" : "{\"value\":\"d9FrMVBO9AqOoloSIBYDZ6IX1f1qVVbWS4iAgMjbW+8=\",\"salt\":\"xt9XHoUoAEMeC8QL/DEpsA==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-project-realm" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
     "id" : "037cdb16-e7bc-4640-ac3c-eb3c2f524a26",
     "username" : "service-account-backend-client",
     "emailVerified" : false,
@@ -393,20 +591,20 @@
     "notBefore" : 0,
     "groups" : [ ]
   }, {
-    "id" : "9e084c16-d176-4fd1-928c-fc113ab6783f",
-    "username" : "test",
-    "firstName" : "Testowe Imie",
-    "lastName" : "Testowe Nazwisko",
-    "email" : "test@test.pl",
-    "emailVerified" : true,
+    "id" : "287fbcfd-8986-4fc4-a66a-9b0af30187ac",
+    "username" : "weronikamalecka@wp.pl",
+    "firstName" : "Weronika",
+    "lastName" : "Malecka",
+    "email" : "weronikamalecka@wp.pl",
+    "emailVerified" : false,
     "enabled" : true,
-    "createdTimestamp" : 1767007233827,
+    "createdTimestamp" : 1767984786248,
     "totp" : false,
     "credentials" : [ {
-      "id" : "e7e0c020-8e3f-452b-95bb-29ada0ebae53",
+      "id" : "6f237619-1eee-44f4-b137-5c0bca8ce841",
       "type" : "password",
-      "createdDate" : 1767007233896,
-      "secretData" : "{\"value\":\"S4iohsTJ7N/cPk3R7YRw2kE1TTVGRCDNwKP/L6458I8=\",\"salt\":\"4evwDwzEtFKbJLYkbhsCbA==\",\"additionalParameters\":{}}",
+      "createdDate" : 1767984786279,
+      "secretData" : "{\"value\":\"a3VuTP2M8QCmHjy4jn27XS/vcW+KJCK46dGW/orN3qk=\",\"salt\":\"L0EsNO4dItn46vqMM06DqA==\",\"additionalParameters\":{}}",
       "credentialData" : "{\"hashIterations\":5,\"algorithm\":\"argon2\",\"additionalParameters\":{\"hashLength\":[\"32\"],\"memory\":[\"7168\"],\"type\":[\"id\"],\"version\":[\"1.3\"],\"parallelism\":[\"1\"]}}"
     } ],
     "disableableCredentialTypes" : [ ],
@@ -1416,7 +1614,7 @@
       "subType" : "anonymous",
       "subComponents" : { },
       "config" : {
-        "allowed-protocol-mapper-types" : [ "oidc-sha256-pairwise-sub-mapper", "oidc-address-mapper", "saml-role-list-mapper", "saml-user-attribute-mapper", "saml-user-property-mapper", "oidc-usermodel-property-mapper", "oidc-usermodel-attribute-mapper", "oidc-full-name-mapper" ]
+        "allowed-protocol-mapper-types" : [ "oidc-usermodel-attribute-mapper", "oidc-sha256-pairwise-sub-mapper", "oidc-address-mapper", "saml-user-attribute-mapper", "oidc-full-name-mapper", "saml-user-property-mapper", "saml-role-list-mapper", "oidc-usermodel-property-mapper" ]
       }
     }, {
       "id" : "d8e12949-15c5-461b-aa48-47e2dfbfd3bf",
@@ -1432,7 +1630,7 @@
       "subType" : "authenticated",
       "subComponents" : { },
       "config" : {
-        "allowed-protocol-mapper-types" : [ "oidc-usermodel-property-mapper", "oidc-usermodel-attribute-mapper", "saml-user-attribute-mapper", "oidc-address-mapper", "oidc-full-name-mapper", "saml-role-list-mapper", "saml-user-property-mapper", "oidc-sha256-pairwise-sub-mapper" ]
+        "allowed-protocol-mapper-types" : [ "oidc-full-name-mapper", "oidc-address-mapper", "saml-user-property-mapper", "oidc-usermodel-attribute-mapper", "saml-role-list-mapper", "oidc-usermodel-property-mapper", "saml-user-attribute-mapper", "oidc-sha256-pairwise-sub-mapper" ]
       }
     } ],
     "org.keycloak.keys.KeyProvider" : [ {
@@ -1441,8 +1639,8 @@
       "providerId" : "rsa-enc-generated",
       "subComponents" : { },
       "config" : {
-        "privateKey" : [ "MIIEowIBAAKCAQEAwtTZsUdu0w0Ze2cEZvL+IXTC3QO1kdJSzSRN9ue6yTE83FXZz7IxdQ6G8mxguQWcg8m0befkE04KB6FbFDm6uuwzwrUx/jf/vnUdDI9dLZclbtM+9qXVT0GIry+rGAj6z8EeUc/7haVzd4mB/f2ApvHk1KD1i+wLEmUKUoZM8IBZFxalV/2BccWrLZ0SStYIG8b3SgVV7KTVKDLuercXYeb7WWGqXuRToHPOCcrA/Z+OOlKlcJqrqMSqGD8x8melKoYIpJP7J6i+AkrxenfhjWswZsYgA7/iO3801+QY3ooMsd0r4Mo6E5+eAEyxB+GDM1sln0Nml4YgR1y1M0bY6QIDAQABAoIBAB1p0OuooxyNr7knlkyMhr06SWjgdHrtS77YqkSKO3LAUjXZaCao+jp31PuoTPnh1P04aFrnVVFsyKraO0vUY1Jw8meEv2Vnwt5YA+ivhBur4+TVU34dDxUGCcKY6bWZNXRD7XXgdlJ45fO3+L4FlXSetDM9kZRsMEe4pVRMHjV4hxxwyXEnMP3jeQw257E7cf+C2SZFwpXA11wsadIH7QhH+FGYFCtY3p+ria6x0TDZ1QUIgn5NRa/ev5L9s1Cr5eJBmeYtHPvvlEHJ54QaJFFTdCxvhWVYZDLpKav4wt3PWEQ9C6BZcN5pD8S5S3GEeE0o66OPrBDzJngSiEbdEWECgYEA+jANiYGSejRaNeYcKGEYYIugYlpV6hAnRNWxpibv6q0WwiCE1cVjaE/N3mrINzpcRvc3is+RynXK7Pvb616DzU2ez4eMTXZfoP2TEfkzKyuROo+aPC1FRtPoRXP5bg3kDen6Oq1JDIitHlIlGP39/B5sBcDNyA8HONplNMLI7J0CgYEAx1uTb4Q5msx+EDj2pOCACr2DJI+rDWGNAfzQt3i7qLDARPr2CcKd5i2O+fb+0LFU0xB0y+YFhC1tW/xSjZEq7mvYkwGg+rgM0kIWfMTB4ZskmDrzVUzIFh5UhtQzJS9/fgqOcLmpMyKs/u98TUrwXbFJWm+UhdVCUk52BJGt/b0CgYEA1cTLPEufGZWz4svcEVBtIMkM4BypvhXRR8qDQSGR62W7xWE9vt4qgw11LO72ZeISyHwhVBTpUCF3oyfMD/8xBPGmmVILOoDDUu53hGr2IpPWQkBDG9nekJctpnJilHt/+beLHCnF+dSqfvbXRdR3+L0RtZS4/5B/rj9FLGCmhy0CgYBOHcQX3mf0EE0Vbjy3PoDttHS+zszn4WGvdbETM2vVHe05Gl1uVaQpnZB4wh/3BoWGbtxVSTzAHkzLzoNKlaeM5RVoBStfEt9zRBIrsa2HCZO9UtwmgH+mqxvT+TJRT9tVOC24Xge+0ceX3Z+HaeXl0KI9nZtFFdt3BOeZwru6wQKBgAmsrr8eprS47OoF/aDg1EcynFnb8qKJabla/riF9ejvQIXrH5MpVrmhMEM1yrY6qy6w5GuEEmVgRIAymj1oMDpmgpDwAhXi6qb807Z5e2Dx8lCKy+e94bddjGqufAVaDat/vbonulw3xXYg8gbzcqwKbeWihsO0dB6pM8+s5M55" ],
-        "certificate" : [ "MIICqTCCAZECBgGbadJGazANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1wcm9qZWN0LXJlYWxtMB4XDTI1MTIyOTExMTQwNloXDTM1MTIyOTExMTU0NlowGDEWMBQGA1UEAwwNcHJvamVjdC1yZWFsbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMLU2bFHbtMNGXtnBGby/iF0wt0DtZHSUs0kTfbnuskxPNxV2c+yMXUOhvJsYLkFnIPJtG3n5BNOCgehWxQ5urrsM8K1Mf43/751HQyPXS2XJW7TPval1U9BiK8vqxgI+s/BHlHP+4Wlc3eJgf39gKbx5NSg9YvsCxJlClKGTPCAWRcWpVf9gXHFqy2dEkrWCBvG90oFVeyk1Sgy7nq3F2Hm+1lhql7kU6BzzgnKwP2fjjpSpXCaq6jEqhg/MfJnpSqGCKST+yeovgJK8Xp34Y1rMGbGIAO/4jt/NNfkGN6KDLHdK+DKOhOfngBMsQfhgzNbJZ9DZpeGIEdctTNG2OkCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAlW82E6a0nLj4Q7OrcS/CevUCqZJ+fyCl1cTTnovPaKdJxerE6Fk3VJTLPH/vZIZLAR/1WEyiyOmnYGuenddg/0orstiJ3n/xowuFlLmkAJdknr7xOMYpDO0LwhOGYDY9GiUlBgQ6/XhxDAQvfZOrTuphDw364rRqIHupMoVWiu6FCJPoDgvYK21YE5ebpKhh/KjlO3dtZgQLv6zEwOxTMzeixyjaymPz4KkbA+HJwsKuCI+NOI9ywBcXOeT1R9Q4D9TSlfV3UMH59xY73UlRBlNwZEH0oeaaJY3qMwgOc8OXTrKuVw6dYZtZqRpYqldrvN5lYyLyGpPj8E8FxJOqpQ==" ],
+        "privateKey" : [ "MIIEpAIBAAKCAQEAzo3TRcLrq/jVOo3nn+nLcNfBQtQJB3pVPWryi8gR7ztVwgT8a93/BOJYyeakHJH7d2aD8ZIUZADp878kK20nhAi7WGPj70f4Z/mmGX8iloFTpoKyiSIWW5AG2LeqaW4buu0CqbObG8iSdPT8Vl0uCejK3MKu+adbPeNyvZJXej4XOjZ+x5T97yBQhBpH9xsH+ICSz6E4RKIYFiLPC7UTaGmVuMwI841Y6ea/1zPrNlyQstVdRx+elZS9xwo1b8pmIUpUpZgp2Pd9DCVOCs5bfqTHeAmODML5zJVC/eVEx/qZdpipCN7F5/3yRkeBhEYDmI39DwN49AdwQ8qAt8mXeQIDAQABAoIBADfJ3Kd59zdytPzkuQvbFMS8sYlARdQMOZumGC6i8h0gdJA70oW75xZFoF+f+PFyiG3+dWK45uL/0DCyjq1gBQ1HYnqEOFs3oCNNLYyzZv8pnRNbN6eMWmeOphrAuLlTMRAy1cZKKXm+mbgXN1SIRFgO1UP9HU924VD87s+/B/uO73Q9fTr4+O4ezpDGOIVUGUjOngOW+H6zNkEuElr7eYvw0SvQw1LvrTPnxp2rzzWo0bCukUypFCMSHJsgS2Man+BSFr3zNOIyOQmYGxMGXCIYs0MIJYgWoc8yLSWjSJFPQlzKb+6naGqaSbqkkcKYzfeWZqshXbRLvGQQT9St8sUCgYEA59T+QFEIOQ2C9s3oMKremz9yKaHi87xu3xisUB+WQcfGd7mICrUmOaWVbiYT8G4TsHHLq3GwOI93gYLmoxJJo1nYvde7NOHebHDs9aRryhQjNt/trnxyYKG1ybdHYoq6TRrGuJOOVYdvsXSzTJCieyaHS3IAAwqlyUO5nQIWKNcCgYEA5BY6AGmWrWDjWnDdoD/VLsvFqtIfr4P+6Z1MGTxrHXoiAlmoLC5OXELXwS0xNMUhphQr7XWLJ6jbTkS7vQJf9dUVEmKjoU78F9rLhSUYX5Jhq3+LtA6oEZlO+W4uBzJdCjibXKpBoN6hFBoLxtFTX7alK3Ot5y+/2dMBWAgNqC8CgYEAkYwWR9jX2cHS3BIv2QYdlchCa0LYkn9V+DisTe1Wz1uWDapsb5SFOCHt6+Z6FDN3pwn6fVt18DyaIbRGClE77BNHUQC05qF7nAdVrW6ZwZfc9+GkfixhPqunzsmDRqmkBy5tXoo9DRNnmziSLNqNN9XbkRE0UrSHmxEq4hjiQqcCgYBd1rMoRkjCrjD7naHg80IvDZEWlXqJyIGQ9bFAVLYxG3VwiBiDjM2acbm4dXJgJpaQcI4eFRUaTQNlMSwYOCjoyDDyLnjpvchDvDWtYrSjZWMfnssIWltVWkC+qFDxjwvuT5nDxxxXJiEZVxnvQ2HM6CUOOnqaue9xm7la0X1k6wKBgQDLNI6zcbJP61RJQgIG3DeZtbD09/LEXTmaZOTBJYXJU/sFISeHbOoWfdTLzpHsnMGjc73UVdbUqUJCWt739Yk154f1HTlx1xx+R3BuX3Usy10tJBHd6X6I8sKqcJfH0M62q7ZpcSIArAbjJ9l0IU8dqKu8mYdfm6m+lhzKjjcZNw==" ],
+        "certificate" : [ "MIICqTCCAZECBgGbpA4BRzANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1wcm9qZWN0LXJlYWxtMB4XDTI2MDEwOTE4MzcxOVoXDTM2MDEwOTE4Mzg1OVowGDEWMBQGA1UEAwwNcHJvamVjdC1yZWFsbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM6N00XC66v41TqN55/py3DXwULUCQd6VT1q8ovIEe87VcIE/Gvd/wTiWMnmpByR+3dmg/GSFGQA6fO/JCttJ4QIu1hj4+9H+Gf5phl/IpaBU6aCsokiFluQBti3qmluG7rtAqmzmxvIknT0/FZdLgnoytzCrvmnWz3jcr2SV3o+Fzo2fseU/e8gUIQaR/cbB/iAks+hOESiGBYizwu1E2hplbjMCPONWOnmv9cz6zZckLLVXUcfnpWUvccKNW/KZiFKVKWYKdj3fQwlTgrOW36kx3gJjgzC+cyVQv3lRMf6mXaYqQjexef98kZHgYRGA5iN/Q8DePQHcEPKgLfJl3kCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAFuzfVq5Aauu7aips/YMZGUgdltZuE2P6XqNPvd9rsKO/TGT77d/q0+7R304HxARi7QBjNGyx+fPd2HG72ZwxdGkxLLeaKFLhUhRas/zuWo81xwvYV7wdNWs+Sa+VfPc1t/DUwporsWPiEq4Kgct5BUxTDRzMRF9wYTXCW3EcMCAFBxdsntzcP7lFUSdmjGn2Ju6EjlREtkY6Kyn0PMsC5EMF1rCfqwIF03/q1N7uoftk05TXnhMVQzP58HkFwNV83UbcW5/cujJyokNOmxgOnYFAdt64LPZxRJ5kkQ3QilFyi6TFr0/4iXYC04W6f0xyJmt27EDvvPRtC3+F6NZ2dg==" ],
         "priority" : [ "100" ],
         "algorithm" : [ "RSA-OAEP" ]
       }
@@ -1452,8 +1650,8 @@
       "providerId" : "rsa-generated",
       "subComponents" : { },
       "config" : {
-        "privateKey" : [ "MIIEpAIBAAKCAQEA2k/X6Sq/a9k5ASapAWb27dqw7/CNUGAlDaz6moiFFumfH79rW2lRtOlu/NPS9x2wZi+ceMNGWUYgBSMC4Gi5GK+vfocl7gCBtaLN/TkYKBn1oo33eWlQc8PUOkiBLnwlnqaAGSVuT2uJIwe4B3Tu6Sv/dUhOY07eh6KMHtCPMJOSoL7BRBzLj0TtaDG5EX2PJr1rSHPFTZ3BVqUjTEn2CkxYOMOr4dKJYzCXfst9b/BBofR9l6kGz8zgbeR7EWqoqw2uXq/1WVtRuWuT1DZ0bMxLnn2vCXDpmWf/vAkgCsCuVFCYdy6jwMZ3w8mD2395fk/e2/OsYyR4ZzTrg8cAkQIDAQABAoIBADloLIUWZh7EkM5iLaf+POmgC84Uifx8Q9IcTgvr4V98kIjnK6Juh/tUNQjL5NpxlqzQUUuaQfoAzDO9mKiNMTsyG6pgfJNg07sBNDyl0lndNbAIt+5XyL2gXcLzxPCF2dilvOKf6ql8xCOPiI+Bar+q/7KGEILhvveYwVLrEfQ6JbJB6y6cjIR4JqntaXUuaaRG+Y7LKDplyqtMvoNbYxQQZhR9TAFX8i/28BZeLhkaLeuPZWFcZ5wJYHR6AeUxdNBXm5f6E82lwfGL7PMEA0KrLx+RsIhzxzz3Kojpv/XbI61jkkUD0oiNVeOan4RWCEge9rm5Y8QoDur6NFU6gRcCgYEA9iNje/AmeAmlwN16o1NGNvmu8OCIPN/9UF6rAouz1WlbOqXWSgVqMt1up1GeA/Fh+wAXiNxGFIg3BdXJVB//UISfdeZH0lyN2exxa62aTSMlzbL8TSx6AoUKh6dBseWiVtU0lcDXlzeqFumsB3RcMwuS1K9WVJVSpUB0HGf3hccCgYEA4w8LDGWEY1tdZR9hen6HOKTWHxyh/nTFhng4QOG2zxdqo/HQZpFejFe8TrUy7ymRQQN77OZR7kE+GW6eAJ9EYU+jjsKzUezgm2VK7ghG7Wz0HmCq+0npi51waK7ZQgRr8VUREVP+FyEAxYYYqAZKkHmJzOkLwFgH+/jIf8rgZucCgYEA7Sl+Ew57UpAhKOt+3l4/unrsaGZAfz9nygfdiM9pUMl6QNFH3/zFrgsUMp3+vlfYC8yz4Ig18lSph7LNkYRfMosHRsfDDltlxsP/KTyV/5tNMp0yY33mdgUQ91Jeh3X27On0CBNO6AKXngo7WtdwezK8oLftXAShJF8tQa2fn0MCgYBxgcGqLs2hxbjIpolabQo4HN8VqoCo7cMY19x3Qt7aZABheK8PtzgmvG1cg2S0/niooY8//FuU2XSrzgqakQPkCaXf5iEyoVIfHOH6YJTkeAUJcpXHDUn9C3V4P4BIamFzwWzI1s48zbjPBZwp0wtPchKbJx1CyD8ljVbd25OWnQKBgQCsLE9fcu9U6DsSB0LA27x2QKhCf33DG0X2wxpVXxkxa05MvS2ZbzZfW2J5XfhoWo7HsQyiwLYOdlAYdsOgMALLDrqw9PcFQ7qKHrPoqMz2biGnb2Y4QTk0io2/ZpGmL5LOHmriduRwUrXmIAWRxlMPgfYYLs74upknI3Xes/DWkg==" ],
-        "certificate" : [ "MIICqTCCAZECBgGbadJHJDANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1wcm9qZWN0LXJlYWxtMB4XDTI1MTIyOTExMTQwN1oXDTM1MTIyOTExMTU0N1owGDEWMBQGA1UEAwwNcHJvamVjdC1yZWFsbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANpP1+kqv2vZOQEmqQFm9u3asO/wjVBgJQ2s+pqIhRbpnx+/a1tpUbTpbvzT0vcdsGYvnHjDRllGIAUjAuBouRivr36HJe4AgbWizf05GCgZ9aKN93lpUHPD1DpIgS58JZ6mgBklbk9riSMHuAd07ukr/3VITmNO3oeijB7QjzCTkqC+wUQcy49E7WgxuRF9jya9a0hzxU2dwValI0xJ9gpMWDjDq+HSiWMwl37LfW/wQaH0fZepBs/M4G3kexFqqKsNrl6v9VlbUblrk9Q2dGzMS559rwlw6Zln/7wJIArArlRQmHcuo8DGd8PJg9t/eX5P3tvzrGMkeGc064PHAJECAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAnnmBEG61e9mjJG2lsRVRjiteZx1wVMLa0yR8WXtqXcCMnJGQZSztRoWExP1b3NoM2lHET3TJAhrtv3f2WiwlMH13qd9UQsHbvhk6zG72neAgcIgqwHsaRhU/VSWY3CVt8R0DT4Ks/tFL0ggobFGJy/x7Tu7LfsD+6AADrgOnHbRuYE79ehv/96sGO4jN7NlkbPL4KiIeEpB3q/xQK3+6al2p34MaC20oII86keg50qDptJ8TeIGkKa+dShhRmrLez253W8iKfgFetFFqMQWVKr02ZPpgzKO8oXMKCdE9ItRQiH6B/nUCWtc3KMgvn6m5mGXrW8qhUdJJSw/+mlHP2Q==" ],
+        "privateKey" : [ "MIIEpAIBAAKCAQEA1mMzX3yj8wMo4fnhWnlJkXu23ep7FMSdvRA3fDDYXbRgTlOcS7rEZIdJfEcaNTKLjSnpwV2GKFaWAkLjxqvNp+JvGSpXRCvGl2xoMZPxP7Ogz4tfmEKDvhHfZYRw9ouTZIHeX48ASitlpCsDwFE/PWznQBO6cZ4aGdwUbMRa/kEiDPW/3j0imFXV66IA6l63VjtfS/P4D+V97uEbssGeLSTxxCelHyfJliXdxxBd/7ZEXYmahiDOhc2X06iMRNz3NRdOIS271I3YfpSULh2iUV0Hw4/6gxUq/aFLtyzBSp/D+Hf/Lbn4xVOv0GRbwzZk+tKc+1WVOmJ4/WZ0h/CshQIDAQABAoIBAAcumJR81PM5ql9zoxCIWqYUimpBxjDKa2xfhDRVYJI3DjjhhS1mStkBTT1sFl0s3c7zVgDj1LA6Qlk+C2pm7ANRSx6BNB41BzigaZcrmRvktSDuztuHcullqOG6P5yKzXvC/AOgg0Z40LVguYXyUteIc/DKGGdhAAfYvxhrtY6p6TcJz8G4n8KiPsWSWsvZhzLP23tOHRs/qt6qoFBlWQJJ3EZj1joW+yvKhAK3a+lJnNgLjMeCLu+dw3vhH/viVy2uL24Kwwi+26HGgBkiu9k1GlZmGekmOFp1u4JC4fgSfYkKx8jMvLVPb8RxLXLBdSTRcfYVOfUiXgcHfwGa6LECgYEA9VHP3JkFxn3EQuGTutqUF46+nqGJm1KJq2XjGsnSibl4JOZyJkN0K1wrMeRGlYEoUTexf1BWYBgIIkzXeMi7OcPvfC58oUBd0wzgohHD6yk4KtOJH9eWs5fZxtwMT7mAfdeQShwS6PQazw1oV5f4S5SmWd08IT1s847xrtAxgLkCgYEA37ijUTjtuknKuG5+ZutunpLVvn1WbwEDqElFBDsAwZcUOA1xy1uXBSeIxjX947JSs1kaakJySV9n7rfG461M0TQhVfky/V6BP7rMCfCk7Pm99NdBhvqI9dTkJgA4B1j7o7Kt5JMx7xrW7FHFKvJo9lP4+6Me3s/avf7dehbnbC0CgYEA2ZYG15KiHLvQJ8IMVd8pGvvw9qIweyNqGCv2kvwPUTi/53q+JFIP56WIamgectxr9h1/wXxwICswi7u8IdVouoOfFnXk9OEyVs9FLnqzWxDkUJfvN97wO7qj3k2uXcgav4NC53ifDR/150/tDEQuZlsicPJZMuJYkG5ozrS6M4ECgYEAu+UUtWi8sJK9Qbz7SHE/TMtB3WTjLQOLENHIt07eybibcKBKDGN2KQwVIXPDMnNYZezV9Jyt49XPMn0C+8FXHPVNcimDm6y9nMrEBy0nNyhhU7td+4F7egw9OXVBmVowrkGpLqo5a/n8vCnJENLbONc57A4KJVQpAR2G4b1OzFkCgYAJ+YBenLdDK8QYP4VYAjXxTW2ENAzv5I/CzGAGu1P6/pPNWqob6UmEIRWyIHWtRoxVDxY2DEH0Boey/Y5k/Oo07J/93TU7DSSNHVZ8CD+3tFZG7WrURqaWfNolYQ/QxQFpwfFsBOAxeTXIu/MiiLFTdIJdLZwrvdyvh3MPW6l3vg==" ],
+        "certificate" : [ "MIICqTCCAZECBgGbpA4CJzANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1wcm9qZWN0LXJlYWxtMB4XDTI2MDEwOTE4MzcyMFoXDTM2MDEwOTE4MzkwMFowGDEWMBQGA1UEAwwNcHJvamVjdC1yZWFsbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANZjM198o/MDKOH54Vp5SZF7tt3qexTEnb0QN3ww2F20YE5TnEu6xGSHSXxHGjUyi40p6cFdhihWlgJC48arzafibxkqV0QrxpdsaDGT8T+zoM+LX5hCg74R32WEcPaLk2SB3l+PAEorZaQrA8BRPz1s50ATunGeGhncFGzEWv5BIgz1v949IphV1euiAOpet1Y7X0vz+A/lfe7hG7LBni0k8cQnpR8nyZYl3ccQXf+2RF2JmoYgzoXNl9OojETc9zUXTiEtu9SN2H6UlC4dolFdB8OP+oMVKv2hS7cswUqfw/h3/y25+MVTr9BkW8M2ZPrSnPtVlTpieP1mdIfwrIUCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAgdPpWqY2p6YsTpeu8Rkazp0o6IgD+0r63OdqguNhs4rbXLagBi0BJmJqNF4WlA2byu/Tl+CWkUqOlu+vP5dVd6CxK+g17bTHDWbSC4j8L3Km4R4s/G+2iI2yfOGswjnwxMQFyVus3thzRGQIchJngN9oEnn6a0m31ZHbSuk6FAASW0GseTM0fDf3croXaq8Z+H8ND6NIbFDSu8iLumUrdd4AL3ZYRl+t1Dx75yOhI6CmOr2HhkdhzOAOjLKiKvh95L9Ct7LFT6EAYgBUJSefehmLNPUof2URYzKmt+o47yE0lsAQ5uf/pUrnM35gQsQWAQ6tutEkTMbX4ymqyU723g==" ],
         "priority" : [ "100" ]
       }
     }, {
@@ -1462,8 +1660,8 @@
       "providerId" : "aes-generated",
       "subComponents" : { },
       "config" : {
-        "kid" : [ "dc1931c4-b0f0-4297-b669-786f3ec66b04" ],
-        "secret" : [ "zXLbORIwsxwTQL3nvxpxpQ" ],
+        "kid" : [ "c4b23875-ba83-497f-ac1c-eb0e02b8d7be" ],
+        "secret" : [ "UlQN6cN-v8r0RuRbSSNd7Q" ],
         "priority" : [ "100" ]
       }
     }, {
@@ -1472,8 +1670,8 @@
       "providerId" : "hmac-generated",
       "subComponents" : { },
       "config" : {
-        "kid" : [ "05a9e0aa-68cf-46e8-80b2-453cd187f4ed" ],
-        "secret" : [ "jOqRZGwGXhr2Fou3UCina9IQt8wUuCEzMllxR7Udi1tBNG-0Zq_aBBY_bIRL59N9imzP5hdUX58xRIDyPrnVOtYG5X1oRPAQICvXjAszbOLd4rQDYR5c8isVK2isCtC9xvW4C1i9lXk83uhJhvBix0fsucrdiRnct3c8CRpKfsY" ],
+        "kid" : [ "bb872bca-edcb-41ca-8ca2-6730849ad447" ],
+        "secret" : [ "kJ77c87zXxoDqcw9C8Qk9lslu83zY4NYjInmQuieZNtB4hiMAIYJc2RxiFfPjdvkTDiOkrPkDS73LXg9rQY8GbXQliq44AQ-G11oRWt_xUpdLSNMc41HbYju_wHX-InTWV2Ah4viHjvINS8w5NQijyd-TVc9xBYaf-PxkqLrexs" ],
         "priority" : [ "100" ],
         "algorithm" : [ "HS512" ]
       }
@@ -2185,17 +2383,22 @@
   "firstBrokerLoginFlow" : "first broker login",
   "attributes" : {
     "cibaBackchannelTokenDeliveryMode" : "poll",
-    "cibaExpiresIn" : "120",
     "cibaAuthRequestedUserHint" : "login_hint",
-    "oauth2DeviceCodeLifespan" : "600",
     "clientOfflineSessionMaxLifespan" : "0",
     "oauth2DevicePollingInterval" : "5",
     "clientSessionIdleTimeout" : "0",
+    "actionTokenGeneratedByUserLifespan.verify-email" : "",
+    "actionTokenGeneratedByUserLifespan.idp-verify-account-via-email" : "",
+    "clientOfflineSessionIdleTimeout" : "0",
+    "actionTokenGeneratedByUserLifespan.execute-actions" : "",
+    "cibaInterval" : "5",
+    "realmReusableOtpCode" : "false",
+    "cibaExpiresIn" : "120",
+    "oauth2DeviceCodeLifespan" : "600",
     "parRequestUriLifespan" : "60",
     "clientSessionMaxLifespan" : "0",
-    "clientOfflineSessionIdleTimeout" : "0",
-    "cibaInterval" : "5",
-    "realmReusableOtpCode" : "false"
+    "shortVerificationUri" : "",
+    "actionTokenGeneratedByUserLifespan.reset-credentials" : ""
   },
   "keycloakVersion" : "26.4.7",
   "userManagedAccessAllowed" : false,
